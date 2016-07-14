@@ -1,0 +1,130 @@
+%% start of file `ldenham-resume.tex`
+
+%
+% Based on the template file from the moderncv LaTeX package (copyright statement below)
+%
+
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,letterpaper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+%\definecolor{color0}{RGB}{0,255,255}
+\definecolor{color1}{RGB}{255,30,130}
+%\definecolor{color2}{RGB}{0,255,255}
+\moderncvstyle{banking}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+%\moderncvcolor{green}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+\moderncvicons{awesome}
+\usepackage{fontawesome}
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.875]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Leah M.}{Denham}
+\address{855 Peachtree St. NE}{Unit 3204}{Atlanta, GA 30308}
+\phone[mobile]{(706)~831~0801}
+\email{ldenham828@gmail.com}
+\social[linkedin]{leahdenham}
+
+%multicol support
+\usepackage{multicol}
+
+%----------------------------------------------------------------------------------
+%  resume content
+%----------------------------------------------------------------------------------
+\begin{document}
+
+\makecvtitle
+
+\vspace{-10mm}
+
+\section{Experience}
+
+\cventry{October 2014--Present}{Design Engineer}{Polytron, Inc.}{Duluth, GA}{}{}
+\begin{itemize}
+\item Responsible for executing technically sound project design while maintaining cost efficient schedules
+\item Work in adherence to the National Electric Code (NEC)
+\item Develop and implement design standards and detail design calculations
+\item Development of equipment requirements and specifications
+\item Providing plant and equipment electrical power, automation and information system design
+\item Controller programming (HMI, PLC, etc.)
+\item Preparing feasibility studies and equipment comparisons
+\item Oversee on-site installation and provide project start-up support
+\end{itemize}
+
+\cventry{August 2013--May 2014}{Undergraduate Research}{Georgia Institute of Technology Robotics and Intelligent Machines Center}{Atlanta, GA}{}{}
+\begin{itemize}
+\item Developed and Designed Holonomic Dynamically Balancing Robot
+\item Team Development of DART and GRIP Software: Simulated Robotics Testing
+\end{itemize}
+
+\cventry{May 2013--August 2013}{Student Assistant}{Georgia Institute of Technology College of Computing}{Atlanta, GA}{}{}
+\begin{itemize}
+\item Managed Social Media Accounts and Statistical Reports
+\item Developed OMSCS Program Website and Correspondence Management
+\end{itemize}
+
+\cventry{}{}{Grace Hopper Women in Computing Scholarship Recipient}{2012}{}{}
+
+
+\section{Education}
+\cventry{2011--2014}{Bachelor of Science in Computer Science}{Georgia Institute of Technology}{Atlanta, GA}{}{}
+\cventry{2010--2011}{Bachelor of Science in Computer Science}{Appalachian State University}{Boone, NC}{}{}
+
+
+\section{Programming Languages and Tools}
+
+\begin{cvcolumns}
+\cvcolumn{Proficiency}{
+	\vspace{-8mm}
+	\begin{multicols}{2}
+	\begin{itemize}
+	\item PLC Programming
+	\item RSLogix 5000
+	\item Git
+	\columnbreak
+	\item HMI Programming
+	\item Allen Bradley 
+	\item Factory Talk View
+	\end{itemize}
+	\end{multicols}
+}
+\cvcolumn{Working Knowledge}{
+	\vspace{-8mm}
+	\begin{multicols}{2}
+	\begin{itemize}
+	\item HTML and CSS
+	\item Java/Javascript
+	\item Siemens
+	\item C
+	\item \LaTeX
+	\item Control Systems Design
+	\end{itemize}
+	\end{multicols}
+}
+\end{cvcolumns}
+
+\vspace{-4mm}
+\section{Skills}
+
+\cvitem{Data Structures}{Lists, Trees, Graphs, Hash Tables/Maps, Heaps}
+\cvitem{Algorithms and Paradigms}{Graph Theory, Sorting Algorithms}
+\cvitem{IDEs and Editors}{Eclipse, TeXworks, Vim, Notepad++}
+\cvitem{Design Software}{Adobe Photoshop, Adobe Illustrator}
+\cvitem{Operating Systems}{Microsoft Windows, Ubuntu, Arch Linux}
+
+\end{document}
+
+%% end of file `ldenham-resume.tex'.
