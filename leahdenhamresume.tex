@@ -11,11 +11,11 @@
 % available at http://www.latex-project.org/lppl/.
 
 
-\documentclass[10pt,letterpaper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\documentclass[11pt,letterpaper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 
 % moderncv themes
 %\definecolor{color0}{RGB}{0,255,255}
-\definecolor{color1}{RGB}{255,30,130}
+\definecolor{color1}{RGB}{189,20,110}
 %\definecolor{color2}{RGB}{0,255,255}
 \moderncvstyle{banking}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
 %\moderncvcolor{green}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
@@ -37,6 +37,7 @@
 \phone[mobile]{(706)~831~0801}
 \email{ldenham828@gmail.com}
 \social[linkedin]{leahdenham}
+%\git[github][ldenham828]
 
 %multicol support
 \usepackage{multicol}
@@ -48,9 +49,18 @@
 
 \makecvtitle
 
-\vspace{-10mm}
+\vspace{-15mm}
 
-\section{Experience}
+\section{Education}
+\cventry{2011--2014}{Bachelor of Science in Computer Science}{Georgia Institute of Technology}{Atlanta, GA}{}{}
+\vspace{-1mm}
+\begin{itemize}
+\item 2012 Grace Hopper Women in Computing Scholarship Recipient
+\end{itemize}
+\vspace{1mm}
+\cventry{2010--2011}{Computer Science}{Appalachian State University}{Boone, NC}{}{}
+
+\section{Work Experience}
 
 \cventry{October 2014--May 2016}{Design Engineer}{Polytron, Inc.}{Duluth, GA}{}{}
 \begin{itemize}
@@ -63,66 +73,32 @@
 \item In-House Efforts: Researched and created a sample program in Ignition (Inductive Automation’s Integrated Software Platform for SCADA systems) for a Bedrock PLC
 \end{itemize}
 
-\cventry{August 2013--May 2014}{Undergraduate Research}{Georgia Institute of Technology Robotics and Intelligent Machines Center}{Atlanta, GA}{}{}
-\begin{itemize}
-\item Developed and Designed Holonomic Dynamically Balancing Robot
-\item Team Development of DART and GRIP Software: Simulated Robotics Testing
-\end{itemize}
-
 \cventry{May 2013--August 2013}{Student Assistant}{Georgia Institute of Technology College of Computing}{Atlanta, GA}{}{}
 \begin{itemize}
 \item Managed Social Media Accounts and Statistical Reports
 \item Developed OMSCS Program Website and Correspondence Management
 \end{itemize}
 
-\cventry{}{}{Grace Hopper Women in Computing Scholarship Recipient}{2012}{}{}
+\cventry{2012-2013}{Teaching Assistant, Digital Design Lab}{Georgia Tech School of ECE}{Atlanta, GA}{}{}
+\begin{itemize}
+\item Debugged and verified circuit and VHDL labs while answering student questions
+\end{itemize}
 
 
-\section{Education}
-\cventry{2011--2014}{Bachelor of Science in Computer Science}{Georgia Institute of Technology}{Atlanta, GA}{}{}
-\cventry{2010--2011}{Bachelor of Science in Computer Science}{Appalachian State University}{Boone, NC}{}{}
 
-
-\section{Programming Languages and Tools}
-
-\begin{cvcolumns}
-\cvcolumn{Proficiency}{
-	\vspace{-8mm}
-	\begin{multicols}{2}
-	\begin{itemize}
-	\item PLC Programming
-	\item RSLogix 5000
-	\item Git
-	\columnbreak
-	\item HMI Programming
-	\item Allen Bradley 
-	\item Factory Talk View
-	\end{itemize}
-	\end{multicols}
-}
-\cvcolumn{Exposure To}{
-	\vspace{-8mm}
-	\begin{multicols}{2}
-	\begin{itemize}
-	\item HTML and CSS
-	\item Java/Javascript
-	\item Python
-	\item C
-	\item \LaTeX
-	\item XML
-	\end{itemize}
-	\end{multicols}
-}
-\end{cvcolumns}
-
-\vspace{-4mm}
 \section{Skills}
 
-\cvitem{Data Structures}{Lists, Trees, Graphs, Hash Tables/Maps, Heaps}
-\cvitem{Algorithms and Paradigms}{Graph Theory, Sorting Algorithms}
-\cvitem{IDEs and Editors}{Android Studio, Eclipse, TeXworks, Vim, Notepad++}
-\cvitem{Design Software}{Adobe Photoshop, Adobe Illustrator}
+\cvitem{Technologies}{Proficient with IEC 61131-3 standard languages, PLC programming, industrial HMI programming and design, SCADA, ICS design, Java; some exposure to HTML, CSS, Javascript, Python, C, \LaTeX, XML, VHDL}
+\cvitem{Skills}{FPGA programming, hardware performance analysis, logic analyzers, oscilloscopes, soldering, embedded programming}
+\cvitem{Applications}{Android Studio, Eclipse, TeXworks, Vim, Notepad++, RSLogix 5000, FactoryTalk View, git, SVN, Adobe Photoshop, Adobe Illustrator, Altera Quartus II}
 \cvitem{Operating Systems}{Microsoft Windows, Ubuntu, Arch Linux}
+
+\section{Research Experience}
+\cventry{August 2013--May 2014}{Undergraduate Research, Advisor: Mike Stilman}{Georgia Institute of Technology Robotics and Intelligent Machines Center}{Atlanta, GA}{}{}
+\begin{itemize}
+\item Developed and Designed Holonomic Dynamically Balancing Robot
+\item Team Development of DART and GRIP Software: Simulated Robotics Testing
+\end{itemize}
 
 \end{document}
 
